@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//////////////1////////////////////////
+/////////////////////1////////////////////////
 char* cut(char str[], int len, int i , int j){
     char* str_cnt=(char*)malloc(TXT + 1);
     int g=0;
@@ -132,7 +132,7 @@ int same(char *s2, char *s1, int t, int w){
 printf("\n");
  }
 
-///////////////////////////3//////////////////////////////////
+///////////////////////////3/////////////////////////////
 int sameStr(char* s,char* wo, int t, int w) {
 if(strlen(s)<strlen(wo)){
 return 0;
@@ -193,7 +193,7 @@ int x=0;
         {
         printf("%c", a[i]);
    }}}}}
-//printf("\n");
+
  }
 
 /////////////////////////////////////////////////////////
